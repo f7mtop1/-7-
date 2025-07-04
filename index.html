@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الصفحة الرئيسية | 𝑭7𝑴</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('shanks.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .navbar {
+      width: 100%;
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .dropbtn {
+      background-color: #ff4444;
+      color: white;
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #1f1f1f;
+      min-width: 160px;
+      border-radius: 8px;
+      z-index: 1;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #333;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .container {
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+    }
+
+    .container h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .panel {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 25px;
+      border-radius: 12px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .panel h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .panel p {
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+
+    @media screen and (max-width: 600px) {
+      .container h1 {
+        font-size: 1.8em;
+      }
+
+      .panel h2 {
+        font-size: 1.3em;
+      }
+
+      .panel p {
+        font-size: 1em;
+      }
+
+      .dropbtn {
+        font-size: 16px;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">☰ القائمة</button>
+      <div class="dropdown-content">
+        <a href="home.html">الصفحة الرئيسية</a>
+        <a href="hack.html">هاك ايفون </a>
+        <a href="https://discord.gg/KcBgCuhQ" target="_blank">ديسكورد</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>𝑭7𝑴 | COMMUNITY</h1>
+    <div class="panel">
+      <h2>عن سيرفر F7M | COMMUNITY</h2>
+      <p>
+        مرحباً بك في مجتمعنا الرسمي! 🛡️  
+        نقدم هاكات للأيفون بجودة عالية، دعم فني دائم،  
+        وقنوات تواصل فعّالة داخل السيرفر.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
